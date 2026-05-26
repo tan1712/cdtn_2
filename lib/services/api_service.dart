@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/product.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://192.168.0.102/api_ban_hang';
+  static const String baseUrl = 'http://192.168.0.103/api_ban_hang';
   
   // Thêm client để hỗ trợ Mocking khi Test
   final http.Client client;
